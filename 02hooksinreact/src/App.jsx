@@ -24,6 +24,7 @@ function App(prop) {
     <h1>Hi there {prop.ame}{count}</h1>
     <button onClick = {addNum}>ADD</button>
     <button onClick = {decNum}>DEc</button>
+    <button onClick = {decNum}>DEc</button>
     </>
   )
 }
