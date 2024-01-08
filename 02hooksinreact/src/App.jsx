@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App(prop) {
@@ -21,9 +19,8 @@ function App(prop) {
 
   return(
     <>
-    <h1>Hi there {prop.ame}{count}</h1>
+    <h1>Hi there {prop.ame} {count}</h1>
     <button onClick = {addNum}>ADD</button>
-    <button onClick = {decNum}>DEc</button>
     <button onClick = {decNum}>DEc</button>
     </>
   )

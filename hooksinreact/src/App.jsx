@@ -10,8 +10,8 @@ let data = {
   specs: [
     { vivek: "Vivek got a pakage of 35 Lpa in jan 24" },
     { Divya: "Divya will come to prayagraj on 1st Feb 24" },
-    { Bindi: "Bindi loves chotu" },
-    { Chotu: "Chotu loves bindi" },
+    { Bindi: "Vivek is a great guy" },
+    { Chotu: "He is soo good looking" },
   ],
 };
 function Appp() {
