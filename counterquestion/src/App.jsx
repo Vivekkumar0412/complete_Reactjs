@@ -9,6 +9,8 @@ function App() {
   function addNum(){
     setCount((pc)=> {return (pc + 1)})
     setCount((pc)=> {return (pc + 1)})
+    setCount((pc)=> {return (pc + 1)})
+    setCount((pc)=> {return (pc + 1)})
     
 
   }
@@ -19,7 +21,7 @@ function App() {
     <>
       <h1>THE cureent count is   {count}</h1>
       <button onClick={addNum}>ADD</button>
-      <button onClick={decNum}>ADD</button>
+      <button onClick={decNum}>DEC</button>
     </>
   )
 }
