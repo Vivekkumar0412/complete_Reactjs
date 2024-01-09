@@ -1,5 +1,5 @@
 import React from "react";
-function Card({name,specs}) {
+function Card({name = "DUMMY",specs = "dummy"}) {
   return (
     <>
       <div class="relative h-[400px] w-[300px] rounded-md">
@@ -12,7 +12,7 @@ function Card({name,specs}) {
         <div class="absolute bottom-4 left-4 text-left">
           <h1 class="text-lg font-semibold text-white">{name}</h1>
           <p class="mt-2 text-sm text-gray-300">
-            {specs}
+            {specs }
           </p>
           <button class="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
             View Profile →
