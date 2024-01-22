@@ -69,7 +69,7 @@ export default function App() {
               onChange={()=>{setcharAllowed((prev)=> !prev)}}
             />
             <label>Character</label>
-            <label>Character</label>
+
           </div>
         </div>
       </div>
